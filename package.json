@@ -1,0 +1,19 @@
+{
+  "name": "rosprac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "watch": "vue-cli-service build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "vue": "^3.4.34"
+  }
+}
