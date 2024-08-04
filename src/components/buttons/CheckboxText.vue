@@ -5,8 +5,7 @@
                 type="checkbox"
                 :checked="checked"
                 :disabled="disabled || error"
-                @focus="onFocus"
-                @blur="onBlur"
+                
             />
             <span class="custom-checkbox"></span>
             <span class="checkbox-text">{{ text }}</span>
@@ -36,15 +35,15 @@
         }
     });
 
-    const focused = ref(false);
+    // const focused = ref(false);
 
-    const onFocus = () => {
-        if (!props.disabled && !props.error) focused.value = true;
-    }
+    // const onFocus = () => {
+    //     if (!props.disabled && !props.error) focused.value = true;
+    // }
 
-    const onBlur = () => {
-        if (!props.disabled && !props.error) focused.value = false;
-    }
+    // const onBlur = () => {
+    //     if (!props.disabled && !props.error) focused.value = false;
+    // }
 </script>
 
 <style scoped>
